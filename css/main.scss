@@ -26,7 +26,12 @@ $on-laptop:        800px;
 
 #goop {
 	background-color: #A3C266;
-	height: 500px;
+	height: 300px;
+
+.wrapper {
+    width: 100%;
+
+}   
 
 }
 .site-title {
@@ -37,12 +42,49 @@ $on-laptop:        800px;
 }
 
 .post-list {
-	width: 300px;
+	width: 100%;
+    float: left;
+ //   border: 5px solid pink;
 }
 
-.post-div {
-	float: left;
+.page-heading {
+    font-size: 50px;
 }
+
+.right-content {
+	width:  30%;
+	// border: 5px solid blue;
+	height: 925px;
+    display: inline-block;
+    float: right;
+
+    background-color: #BABA76;
+   
+}
+
+.wrapper.bodywrapper {
+    padding: 0px;
+}
+.post-div {
+    width: 60%;
+    display: inline-block;
+   // border: 5px solid aqua;
+    text-align: center;
+}
+ 
+.home {
+    width: 1000px;
+    margin-right: 0px;
+    display: inline-block;
+ //   border: 5px solid orange;
+}
+.page-head-div {
+    width: 60%;
+ //   border: 5px solid yellow;
+    display: inline-block;
+    text-align: center;
+}
+
 
 // Using media queries with like this:
 // @include media-query($palm) {
